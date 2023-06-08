@@ -23,7 +23,6 @@ const OrdersRequestForm = ({ setOrders }) => {
   });
 
   const submitOrder = async (values, { resetForm }) => {
-    console.log('Hello');
     const orders = await getOrders(values);
     const userOrders = orders.filter(
       order => order.customer.email === values.email

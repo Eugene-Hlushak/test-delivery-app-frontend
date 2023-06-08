@@ -13,7 +13,6 @@ const UsersOrdersList = ({ orders }) => {
               {item.createdAt && <p>Created at {created}</p>}
               <ul>
                 {item.order.map(orderItem => {
-                  console.log(orderItem);
                   return (
                     <ListItem key={orderItem._id}>
                       <Order>

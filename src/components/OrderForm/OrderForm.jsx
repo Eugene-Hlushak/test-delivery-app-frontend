@@ -49,7 +49,6 @@ const OrderForm = ({
       order: [...order],
       totalPrice,
     };
-    console.log(completedOrder);
 
     sendOrder(completedOrder);
     setOrder([]);

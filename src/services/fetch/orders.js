@@ -7,7 +7,7 @@ const order = axios.create({
 
 export const sendOrder = async userOrder => {
   const { data } = await order.post('/orders', userOrder);
-  console.log('received --> ', data);
+
   return data;
 };
 
