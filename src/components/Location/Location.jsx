@@ -1,9 +1,10 @@
 import { PropTypes } from 'prop-types';
 import { GoogleMap, MarkerF } from '@react-google-maps/api';
 import { useState, useCallback } from 'react';
-import { containerStyle, defaulOptions } from 'services/helpers';
+import { containerStyle, defaulOptions, API_KEY } from 'services/helpers';
+
 import Geocode from 'react-geocode';
-Geocode.setApiKey(process.env.REACT_APP_MAP_API_KEY);
+Geocode.setApiKey(API_KEY);
 
 const Location = ({ center, setAddress, setIsMarker, setCenter }) => {
   // eslint-disable-next-line no-unused-vars

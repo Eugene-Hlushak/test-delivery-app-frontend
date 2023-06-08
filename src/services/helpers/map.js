@@ -10,3 +10,5 @@ export const containerStyle = {
   marginBottom: '20px',
   border: '2px solid black',
 };
+
+export const API_KEY = 'AIzaSyCQuDGiYlwABpGCLvmjZFOJvuY4DCAFTc0';

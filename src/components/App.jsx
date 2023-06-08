@@ -10,7 +10,7 @@ export const OrderContext = createContext();
 function App() {
   const [shopCoords, setShopCoords] = useState({});
   const [order, setOrder] = useState([]);
-  console.log(process.env);
+
   return (
     <OrderContext.Provider
       value={{ order, setOrder, shopCoords, setShopCoords }}
