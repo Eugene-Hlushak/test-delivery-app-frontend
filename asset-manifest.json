@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-delivery-app-frontend/static/css/main.7cda0caf.css",
+    "main.js": "/test-delivery-app-frontend/static/js/main.cf6f3152.js",
+    "index.html": "/test-delivery-app-frontend/index.html",
+    "main.7cda0caf.css.map": "/test-delivery-app-frontend/static/css/main.7cda0caf.css.map",
+    "main.cf6f3152.js.map": "/test-delivery-app-frontend/static/js/main.cf6f3152.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cda0caf.css",
+    "static/js/main.cf6f3152.js"
+  ]
+}
