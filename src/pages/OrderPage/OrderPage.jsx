@@ -4,10 +4,9 @@ import { useJsApiLoader } from '@react-google-maps/api';
 import { PageContainer, Container } from './OrderPage.styled';
 import OrderList from '../../components/OrderList/OrderList';
 import OrderForm from '../../components/OrderForm/OrderForm';
-import { countTotalPrice } from 'services/helpers';
+import { countTotalPrice, API_KEY } from 'services/helpers';
 
 const defaultCenter = { lat: 50.4510788, lng: 30.5214591 };
-const API_KEY = process.env.REACT_APP_MAP_API_KEY;
 const libraries = ['places'];
 
 const OrderPage = () => {
